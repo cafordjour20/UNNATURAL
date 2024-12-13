@@ -1,0 +1,14 @@
+.product-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.product-image-thumbnail {
+  width: 100px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  background-color: purple;
+  color: white;
+}

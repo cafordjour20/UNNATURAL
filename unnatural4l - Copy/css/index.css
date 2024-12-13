@@ -1,0 +1,150 @@
+:root {
+  --selected-color: black;
+}
+
+#slogan {
+  width: 100%;
+  text-align: center;
+}
+
+#slogan h1 {
+  font-size: 3rem;
+}
+
+.hero {
+  background-image: url(https://t3.ftcdn.net/jpg/07/50/73/06/360_F_750730622_RdHprryLTxppsaFJkcjsHRJVzMhrce6k.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.latest-drop {
+  padding: 0 1rem;
+}
+
+.latest-drop h2 {
+  font-size: 2rem;
+}
+
+.card {
+  height: 60%;
+  box-shadow: 0 8px 6px var(--selected-color, rgba(0, 0, 0, 0.1));
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  padding: 1.25rem;
+  flex: 1 1 auto;
+  min-height: 100px;
+  background-color: #fff;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #212529;
+}
+
+.card-text {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+}
+
+.card-img {
+  padding: 0.5rem;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.shop-button-mobile {
+  background-color: var(--selected-color, rgba(0, 0, 0, 0.1)) !important;
+  color: white;
+  border: 2px solid transparent;
+  transform: scale(1);
+}
+
+.shop-button-mobile:hover {
+  opacity: 0.85;
+  scale: 1.1;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+.colors {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.color {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  transform: scale(1);
+  border: 2px solid transparent;
+  box-shadow: 0.25rem 0.25rem 0.3rem rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color:hover:not(.selected-color) {
+  border-color: white;
+  scale: 1.5;
+  transition: border-color 0.3s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.selected-color {
+  border-color: white;
+  transform: scale(1.2);
+}
+
+.color[data-color="black"] {
+  background-color: black;
+}
+.color[data-color="purple"] {
+  background-color: purple;
+}
+.color[data-color="green"] {
+  background-color: green;
+}
+
+@media (max-width: 767px) {
+  .latest-drop-mobile {
+    display: block;
+  }
+  .latest-drop-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-drop-mobile {
+    display: none;
+  }
+  .latest-drop-desktop {
+    display: flex;
+  }
+  .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.33333%;
+  }
+}

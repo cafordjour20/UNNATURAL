@@ -1,0 +1,435 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.text-primary {
+  color: purple;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: purple;
+  border: 1px solid purple;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: blueviolet;
+  border-color: #fff;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5);
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-md-none {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-5 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-md-2 {
+  width: 16.66667%;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.offset-md-1 {
+  margin-left: 8.3333%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-item {
+  margin-bottom: 0.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+}
+
+.form-control {
+  display: block; /* Makes the input a block element */
+  width: 100%; /* Ensures the input takes up the full width */
+  padding: 0.375rem 0.75rem; /* Padding inside the input */
+  font-size: 1rem; /* Font size of the input text */
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+.flex-sm-row {
+  flex-direction: row;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.border-top {
+  border-top: 1px solid #dee2e6;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me-auto {
+  margin-right: auto;
+}
+
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.ms-3 {
+  margin-left: 1rem;
+}
+
+.link-body-emphasis {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-body-emphasis:hover {
+  color: purple;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+#celebration {
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+  background-color: green;
+}
+
+#celebration-texts {
+  width: 200%;
+  /* width: max-content; */
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation-name: celebration;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 25s;
+}
+
+#celebration-texts span {
+  margin-right: 0.75rem;
+  color: red;
+}
+
+@keyframes celebration {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+  /* to {
+    transform: translateX(-100%);
+  } */
+}
+
+.logo {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-trigger {
+  cursor: pointer;
+}
+
+.modal-zoom {
+  animation: zoomIn 0.3s ease-out;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.modal-dialog {
+  max-width: 500px;
+  margin: auto;
+}
+
+.modal-dialog-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+}
+
+.modal-header {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  box-sizing: border-box;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.btn-close:hover {
+  color: purple;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-toggler {
+    order: -1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-md-flex {
+    display: flex;
+  }
+  .d-md-none {
+    display: none;
+  }
+}

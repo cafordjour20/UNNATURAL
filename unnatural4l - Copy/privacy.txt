@@ -1,0 +1,38 @@
+Privacy Policy
+1. Introduction
+At UNNATURAL, your privacy is a top priority. We are committed to safeguarding the personal information you share with us. This Privacy Policy explains how we collect, use, and protect your data when you interact with our website and services. By using our site, you agree to the terms outlined in this policy.
+
+2. Information We Collect
+We may collect the following types of information to provide a seamless shopping experience and improve our services:
+
+Personal Information:
+
+Name
+Email address
+Phone number
+Shipping address
+Payment Information:
+
+Collected through secure third-party payment processors.
+Usage Data:
+
+Information about how you interact with our website, including pages visited, time spent on site, and other analytical data.
+3. How We Use Your Information
+We use the information we collect to:
+
+Process and fulfill your orders.
+Provide customer support and respond to your inquiries.
+Improve our website, products, and services.
+Send updates, promotional offers, and notifications related to your orders.
+Ensure security and prevent fraudulent activity.
+4. Cookies
+Our website uses cookies to enhance your browsing experience. Cookies are small data files stored on your device that help us understand your preferences and optimize website functionality. You can manage or disable cookies through your browser settings, but please note that certain features of the site may not function properly without them.
+
+5. Data Security
+We implement industry-standard security measures to protect your personal information from unauthorized access, disclosure, or misuse. However, no online transmission or storage system is entirely secure. We encourage you to take precautions, such as using secure passwords and keeping your login details confidential.
+
+6. Third-Party Services
+We may share your information with trusted third-party service providers who assist us in operating our website, processing payments, and delivering products. These providers are contractually obligated to keep your data secure and use it only for the purposes specified by us.
+
+If you have any questions about our Privacy Policy or wish to request changes to your personal information, please contact us at [insert contact information].
+
